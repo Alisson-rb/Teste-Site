@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+  body {
+    background-color: #222831;
+    color: #EEEEEE;
+  }
+  header {
+    padding: 32px;
+       background-color: rgba(0, 0,0,0.1);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between; /* Espaça as divs nas extremidades */
+    align-items: center; /* Centraliza verticalmente, se necessário */
+    padding: 10px; /* Apenas para organização estética */
+  }
+  
+  .link-home {
+    margin-right: auto; /* Alinha à esquerda */
+  }
+  
+  .link-serviços,.link-experiencias,.link-portifolio {
+    display: flex; /* Necessário para alinhar as duas divs à direita */
+    gap: 10px; /* Espaçamento entre as divs da direita */
+  }
+  
+  header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
+    color: #76ABAE; /* mudar a cor */
+    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+ }  
+  header div a {
+    color: #F6F8D5; /* a cor do texto */
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 30px; /* espaçamento da linha do texto */
+    margin:  10px; /* espaçamento entre os textos */
+    text-decoration: none; /* retirar decoração do texto */
+    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
+ }
+
+
+ #box {
+    text-align: center; /* Alinhamento no meio do body */
+    padding: 32px;  /* distancia dos   outros elementos  */
+    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
+ }
+ 
+ #box img {
+    max-width: 300px;
+    border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
+    border: 3px  solid #31363F ; /*  adiciona uma cor a borda da imagem*/
+    margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
+    
+ }
+ 
+ #box h1 {
+    font-size: 30px; /* tamanho da fonte */
+    line-height: 52px; /* espaçamento da linha do texto */
+    font-weight: bold; /* tipo da fonte */
+    font-family: 'Nunito', sans-serif;
+ }
+ #box h2 {
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 34px; /* espaçamento da linha do texto */
+    font-weight: normal;   /* tipo da fonte */
+    margin-top: 8px; /*  distancia da margem  superior dos outros elementos*/
+    opacity: 0.8;  /*  transparencia do elemento*/
+    font-family: 'Nunito', sans-serif;
+ }  
+ 
+ #box p {
+    max-width: 500px;  /* tamanho maximo do  elemento na largura */
+    margin: 32px auto; /*distancia das margens   dos outros elementos*/
+    font-size: 18px;  /* tamanho da fonte */
+    line-height: 34px; /* espaçamento da linha do texto */
+    font-family: 'Nunito', sans-serif;
+ }
+ 
+ #box p a {
+    color: #205781;
+  }
+
+ 

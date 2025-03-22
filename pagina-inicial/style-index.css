@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+  body {
+    background-color: #222831;
+    color: #EEEEEE;
+  }
+  header {
+    padding: 32px;
+       background-color: rgba(0, 0,0,0.1);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between; /* Espaça as divs nas extremidades */
+    align-items: center; /* Centraliza verticalmente, se necessário */
+    padding: 10px; /* Apenas para organização estética */
+  }
+  
+  .link-home {
+    margin-right: auto; /* Alinha à esquerda */
+  }
+  
+  .link-serviços,.link-experiencias,.link-portifolio {
+    display: flex; /* Necessário para alinhar as duas divs à direita */
+    gap: 10px; /* Espaçamento entre as divs da direita */
+  }
+  
+  header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
+    color: #76ABAE; /* mudar a cor */
+    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+ }  
+  header div a {
+    color: #F6F8D5; /* a cor do texto */
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 30px; /* espaçamento da linha do texto */
+    margin:  10px; /* espaçamento entre os textos */
+    text-decoration: none; /* retirar decoração do texto */
+    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
+ }
+
+ footer {
+    display: flex;
+    justify-content: center; /* Espaça as divs nas extremidades */
+    align-items: center; /* Centraliza verticalmente, se necessário */
+    padding: 30px; /* Apenas para organização estética */
+ }
+
+ footer div a {
+    color: #F6F8D5; /* a cor do texto */
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 30px; /* espaçamento da linha do texto */
+    margin:  10px; /* espaçamento entre os textos */
+    text-decoration: none; /* retirar decoração do texto */
+    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
+ }
+
+ footer div a:hover {
+    color: #76ABAE; /* mudar a cor */
+    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+ }
+  
+ 
+ #apresentacao-inicio {
+    color: #F6F8D5; /* a cor do texto */
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 30px; /* espaçamento da linha do texto */
+    margin:  10px; /* espaçamento entre os textos */
+    text-decoration: none; /* retirar decoração do texto */
+    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
+ }
+
+ .text-color {
+  color: #76ABAE;
+ }
+
+ .quadrado {
+  padding: 25px;
+  width: 500px;
+  height: 250px;
+  background-color: #31363F;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%,-25%);
+  border-radius: 8%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+ }
