@@ -20,11 +20,11 @@
     padding: 10px; /* Apenas para organização estética */
   }
   
-  .link-home {
+  .link-portifolio {
     margin-right: auto; /* Alinha à esquerda */
   }
   
-  .link-serviços,.link-experiencias,.link-portifolio {
+  .link-home,.link-experiencias,.link-serviços {
     display: flex; /* Necessário para alinhar as duas divs à direita */
     gap: 10px; /* Espaçamento entre as divs da direita */
   }
