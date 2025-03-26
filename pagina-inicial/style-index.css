@@ -7,6 +7,11 @@
   body {
     background-color: #222831;
     color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   header {
     padding: 32px;
@@ -43,7 +48,11 @@
  }
 
  footer {
+    position: fixed;
+    bottom: 0;
     display: flex;
+    width: 100%;
+    text-align: center;
     justify-content: center; /* Espaça as divs nas extremidades */
     align-items: center; /* Centraliza verticalmente, se necessário */
     padding: 30px; /* Apenas para organização estética */
@@ -97,5 +106,5 @@
   margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
   position: absolute;
   top: 25%;
-  right: 30%;
+  right: 10%;
 }
