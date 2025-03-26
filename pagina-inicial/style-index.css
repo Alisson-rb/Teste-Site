@@ -60,7 +60,7 @@
 
  footer div a {
     color: #F6F8D5; /* a cor do texto */
-    font-size: 20px; /* tamanho da fonte */
+    font-size: 18px; /* tamanho da fonte */
     line-height: 30px; /* espaçamento da linha do texto */
     margin:  10px; /* espaçamento entre os textos */
     text-decoration: none; /* retirar decoração do texto */
