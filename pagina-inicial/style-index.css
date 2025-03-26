@@ -80,7 +80,7 @@
  .quadrado {
   padding: 25px;
   width: 500px;
-  height: 250px;
+  height: 350px;
   background-color: #31363F;
   position: absolute;
   top: 35%;
@@ -91,7 +91,7 @@
  }
 
 #box img {
-  max-width: 300px;
+  max-width: 350px;
   border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
   border: 3px  solid #31363F ; /*  adiciona uma cor a borda da imagem*/
   margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
