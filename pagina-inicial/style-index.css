@@ -89,3 +89,13 @@
   border-radius: 8%;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
  }
+
+#box img {
+  max-width: 300px;
+  border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
+  border: 3px  solid #31363F ; /*  adiciona uma cor a borda da imagem*/
+  margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
+  position: absolute;
+  top: 25%;
+  right: 30%;
+}
