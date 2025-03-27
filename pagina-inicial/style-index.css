@@ -88,7 +88,7 @@
 
  .quadrado {
   padding: 25px;
-  width: 500px;
+  width: 600px;
   height: 350px;
   background-color: #31363F;
   position: absolute;
@@ -107,4 +107,5 @@
   position: absolute;
   top: 25%;
   right: 10%;
+  box-shadow: 5px 5px 15px black;
 }
