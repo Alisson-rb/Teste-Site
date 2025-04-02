@@ -36,7 +36,7 @@
   
   header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
     color: #76ABAE; /* mudar a cor */
-    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+    transition: color 400ms; /* e fazer uma transição de cor que dura 700ms*/
  }  
   header div a {
     color: #F6F8D5; /* a cor do texto */
