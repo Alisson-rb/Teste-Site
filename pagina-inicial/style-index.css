@@ -1,92 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
- }
-  body {
-    background-color: #222831;
-    color: #EEEEEE;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  header {
-    padding: 32px;
-       background-color: rgba(0, 0,0,0.1);
-  }
 
-  header {
-    display: flex;
-    justify-content: space-between; /* Espaça as divs nas extremidades */
-    align-items: center; /* Centraliza verticalmente, se necessário */
-    padding: 10px; /* Apenas para organização estética */
-  }
-  
-  .link-portifolio {
-    margin-right: auto; /* Alinha à esquerda */
-  }
-  
-  .link-home,.link-experiencias,.link-serviços {
-    display: flex; /* Necessário para alinhar as duas divs à direita */
-    gap: 10px; /* Espaçamento entre as divs da direita */
-  }
-  
-  header div a:hover {  /* seleção do modo quando o mouse passar por cima "hover"*/
-    color: #76ABAE; /* mudar a cor */
-    transition: color 400ms; /* e fazer uma transição de cor que dura 700ms*/
- }  
-  header div a {
-    color: #F6F8D5; /* a cor do texto */
-    font-size: 20px; /* tamanho da fonte */
-    line-height: 30px; /* espaçamento da linha do texto */
-    margin:  10px; /* espaçamento entre os textos */
-    text-decoration: none; /* retirar decoração do texto */
-    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
- }
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
- footer {
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    width: 100%;
-    text-align: center;
-    justify-content: center; /* Espaça as divs nas extremidades */
-    align-items: center; /* Centraliza verticalmente, se necessário */
-    padding: 30px; /* Apenas para organização estética */
- }
+body {
+  background-color: #222831;
+  color: #EEEEEE;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
- footer div a {
-    color: #F6F8D5; /* a cor do texto */
-    font-size: 18px; /* tamanho da fonte */
-    line-height: 30px; /* espaçamento da linha do texto */
-    margin:  10px; /* espaçamento entre os textos */
-    text-decoration: none; /* retirar decoração do texto */
-    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
- }
+header {
+  padding: 32px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
- footer div a:hover {
-    color: #76ABAE; /* mudar a cor */
-    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
- }
-  
- 
- #apresentacao-inicio {
-    color: #F6F8D5; /* a cor do texto */
-    font-size: 20px; /* tamanho da fonte */
-    line-height: 30px; /* espaçamento da linha do texto */
-    margin:  10px; /* espaçamento entre os textos */
-    text-decoration: none; /* retirar decoração do texto */
-    font-family: 'Nunito', sans-serif; /* a fonte escolhida pro menu */
- }
+header {
+  display: flex;
+  justify-content: space-between;
+  /* Espaça as divs nas extremidades */
+  align-items: center;
+  /* Centraliza verticalmente, se necessário */
+  padding: 10px;
+  /* Apenas para organização estética */
+}
 
- .text-color {
+.link-portifolio {
+  margin-right: auto;
+  /* Alinha à esquerda */
+}
+
+.link-home,
+.link-experiencias,
+.link-serviços {
+  display: flex;
+  /* Necessário para alinhar as duas divs à direita */
+  gap: 10px;
+  /* Espaçamento entre as divs da direita */
+}
+
+header div a:hover {
+  /* seleção do modo quando o mouse passar por cima "hover"*/
   color: #76ABAE;
- }
+  /* mudar a cor */
+  transition: color 400ms;
+  /* e fazer uma transição de cor que dura 700ms*/
+}
 
- .quadrado {
+header div a {
+  color: #F6F8D5;
+  /* a cor do texto */
+  font-size: 20px;
+  /* tamanho da fonte */
+  line-height: 30px;
+  /* espaçamento da linha do texto */
+  margin: 10px;
+  /* espaçamento entre os textos */
+  text-decoration: none;
+  /* retirar decoração do texto */
+  font-family: 'Nunito', sans-serif;
+  /* a fonte escolhida pro menu */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  /* Espaça as divs nas extremidades */
+  align-items: center;
+  /* Centraliza verticalmente, se necessário */
+  padding: 30px;
+  /* Apenas para organização estética */
+}
+
+footer div a {
+  color: #F6F8D5;
+  /* a cor do texto */
+  font-size: 18px;
+  /* tamanho da fonte */
+  line-height: 30px;
+  /* espaçamento da linha do texto */
+  margin: 10px;
+  /* espaçamento entre os textos */
+  text-decoration: none;
+  /* retirar decoração do texto */
+  font-family: 'Nunito', sans-serif;
+  /* a fonte escolhida pro menu */
+}
+
+footer div a:hover {
+  color: #76ABAE;
+  /* mudar a cor */
+  transition: color 700ms;
+  /* e fazer uma transição de cor que dura 700ms*/
+}
+
+
+#apresentacao-inicio {
+  color: #F6F8D5;
+  /* a cor do texto */
+  font-size: 20px;
+  /* tamanho da fonte */
+  line-height: 30px;
+  /* espaçamento da linha do texto */
+  margin: 10px;
+  /* espaçamento entre os textos */
+  text-decoration: none;
+  /* retirar decoração do texto */
+  font-family: 'Nunito', sans-serif;
+  /* a fonte escolhida pro menu */
+}
+
+.text-color {
+  color: #76ABAE;
+}
+
+.quadrado {
   padding: 25px;
   width: 600px;
   height: 350px;
@@ -94,16 +132,19 @@
   position: absolute;
   top: 35%;
   left: 25%;
-  transform: translate(-50%,-25%);
+  transform: translate(-50%, -25%);
   border-radius: 8%;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
- }
+}
 
 #box img {
   max-width: 350px;
-  border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
-  border: 3px  solid #31363F ; /*  adiciona uma cor a borda da imagem*/
-  margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
+  border-radius: 50%;
+  /*  adiciona uma borda redonda a  imagem/ */
+  border: 3px solid #31363F;
+  /*  adiciona uma cor a borda da imagem*/
+  margin-bottom: 32px;
+  /*  distancia da margem  inferior dos outros elementos*/
   position: absolute;
   top: 25%;
   right: 10%;
@@ -112,5 +153,5 @@
 
 #box img:hover {
   transform: rotateY(360deg);
-    transition: 2s;
+  transition: 2s;
 }
