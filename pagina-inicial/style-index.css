@@ -159,7 +159,7 @@ footer div a:hover {
   position: absolute;
   top: 25%;
   right: 15%;
-  box-shadow: 5px 5px 15px rgb(30, 30, 30);
+  box-shadow: 5px 5px 15px rgb(10, 10, 10);
 }
 
 #box img:hover {
