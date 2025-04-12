@@ -158,11 +158,11 @@ footer div a:hover {
   /*  distancia da margem  inferior dos outros elementos*/
   position: absolute;
   top: 25%;
-  right: 10%;
-  box-shadow: 5px 5px 15px black;
+  right: 15%;
+  box-shadow: 5px 5px 15px rgb(30, 30, 30);
 }
 
 #box img:hover {
-  transform: rotateY(360deg);
-  transition: 2s;
+  border-radius: 20%;
+  transition: 0.75s;
 }
