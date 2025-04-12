@@ -142,7 +142,7 @@ footer div a:hover {
   align-items: center;
 }
 
-.link-img img{
+.link-img img {
   margin-right: 10px;
   width: 20px;
   height: 20px
@@ -150,9 +150,12 @@ footer div a:hover {
 
 #box img {
   max-width: 350px;
-  border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
-  border: 3px solid #31363F; /*  adiciona uma cor a borda da imagem*/
-  margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
+  border-radius: 50%;
+  /*  adiciona uma borda redonda a  imagem/ */
+  border: 3px solid #31363F;
+  /*  adiciona uma cor a borda da imagem*/
+  margin-bottom: 32px;
+  /*  distancia da margem  inferior dos outros elementos*/
   position: absolute;
   top: 25%;
   right: 10%;
