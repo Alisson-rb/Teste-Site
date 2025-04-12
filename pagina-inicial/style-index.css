@@ -137,14 +137,22 @@ footer div a:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
+.link-img {
+  display: flex;
+  align-items: center;
+}
+
+.link-img img{
+  margin-right: 10px;
+  width: 20px;
+  height: 20px
+}
+
 #box img {
   max-width: 350px;
-  border-radius: 50%;
-  /*  adiciona uma borda redonda a  imagem/ */
-  border: 3px solid #31363F;
-  /*  adiciona uma cor a borda da imagem*/
-  margin-bottom: 32px;
-  /*  distancia da margem  inferior dos outros elementos*/
+  border-radius: 50%; /*  adiciona uma borda redonda a  imagem/ */
+  border: 3px solid #31363F; /*  adiciona uma cor a borda da imagem*/
+  margin-bottom: 32px; /*  distancia da margem  inferior dos outros elementos*/
   position: absolute;
   top: 25%;
   right: 10%;
