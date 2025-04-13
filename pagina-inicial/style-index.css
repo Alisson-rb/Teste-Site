@@ -98,6 +98,7 @@ footer div a {
 }
 
 footer div a:hover {
+  zoom: 105%;
   color: #76ABAE;
   /* mudar a cor */
   transition: color 700ms;
@@ -146,6 +147,10 @@ footer div a:hover {
   margin-right: 10px;
   width: 20px;
   height: 20px
+}
+
+.link-img img:hover {
+  zoom: 115%;
 }
 
 #box img {
