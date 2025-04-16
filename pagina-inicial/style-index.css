@@ -98,7 +98,7 @@ footer div a {
 }
 
 footer div a:hover {
-  zoom: 105%;
+  font-size: 22px;
   color: #76ABAE;
   /* mudar a cor */
   transition: color 700ms;
